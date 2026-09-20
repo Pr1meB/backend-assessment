@@ -133,4 +133,4 @@ curl -X GET http://localhost:3000/users/user_123/summary
 * "Today" and period aggregations are calculated dynamically based on current UTC time.
 * Metadata is stored as generic JSONB, and we do not perform arithmetic sums on arbitrary metadata properties unless specified.
 * Database connection runs as the root user for simplified local Docker development.
-# backend-assessment
+
